@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Our Cars - RapidVheels</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .whatsapp-float {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background-color: #25D366;
+      color: white;
+      border-radius: 50%;
+      width: 60px;
+      height: 60px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 30px;
+      text-decoration: none;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+      z-index: 1000;
+    }
+    .whatsapp-float:hover {
+      background-color: #128C7E;
+    }
+  </style>
+</head>
+<body>
+  <header class="header">
+    <img src="logo.jpg" alt="RapidVheels Logo" class="logo">
+    <nav>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="index.html">Cars</a></li>
+        <li><a href="https://forms.gle/xxxxxxxxxxxxxxxx" target="_blank">Book</a></li>
+        <li><a href="index.html#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="cars-list">
+    <h1 style="text-align:center;">Available Cars for Rent</h1>
+    <div class="car"><img src="https://via.placeholder.com/300x200?text=Baleno" alt="Baleno"><h2>Baleno</h2><p>Rent: ₹2500/day</p></div>
+    <div class="car"><img src="https://via.placeholder.com/300x200?text=Aura" alt="Aura"><h2>Aura</h2><p>Rent: ₹2500/day</p></div>
+    <div class="car"><img src="https://via.placeholder.com/300x200?text=S-Cross" alt="S-Cross"><h2>S-Cross</h2><p>Rent: ₹2500/day</p></div>
+  </section>
+
+  <section id="contact" class="contact-form" style="max-width: 600px; margin: 40px auto;">
+    <h2 style="text-align:center;">Send Us a Message</h2>
+    <form action="#" method="post">
+      <label for="name">Your Name:</label><br>
+      <input type="text" id="name" name="name" required><br><br>
+      <label for="email">Your Email:</label><br>
+      <input type="email" id="email" name="email" required><br><br>
+      <label for="message">Your Message:</label><br>
+      <textarea id="message" name="message" rows="5" required></textarea><br><br>
+      <button type="submit" class="btn">Send Message</button>
+    </form>
+    <div style="text-align:center; margin-top: 20px;">
+      <p><strong>Or</strong></p>
+      <a href="https://wa.me/918669113987" target="_blank" style="font-size: 18px; color: green; text-decoration: none;">
+        📱 Chat with us on WhatsApp
+      </a>
+    </div>
+  </section>
+
+  <a href="https://wa.me/918669113987?text=Hi%20RapidWheels%2C%20I%20want%20to%20book%20a%20car" class="whatsapp-float" target="_blank" title="Chat on WhatsApp">💬</a>
+
+  <footer><p style="text-align:center;">&copy; 2025 RapidVheels. All rights reserved.</p></footer>
+</body>
+</html>
